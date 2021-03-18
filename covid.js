@@ -56,7 +56,7 @@ function merge(left, right) {
 fetch("https://covid-193.p.rapidapi.com/statistics", {
 	"method": "GET",
 	"headers": {
-		"x-rapidapi-key": "2dd76d74b7msh04af7126e4df225p178eabjsna49132436769",
+		"x-rapidapi-key": <api_key>,
 		"x-rapidapi-host": "covid-193.p.rapidapi.com"
 	}
 })
